@@ -1,0 +1,7 @@
+* {
+    font-family: Helvetica-Light, HiraginoSans-W2;
+}
+#header {
+    height: 114px;
+    background: rgba(255,255,255,0.80);
+}
