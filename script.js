@@ -5,6 +5,9 @@
 //JS
 $('document').ready(function () {
     "use strict";
-    // 何かしらの処理
-    
+    //Script Here
+    $('.tab-item > a').click(function () {
+        $('.tab-item').removeClass('isSelected');
+        $(this).parent().addClass('isSelected');
+    });
 });

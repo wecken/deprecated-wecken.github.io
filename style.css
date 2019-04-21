@@ -49,6 +49,7 @@ p {
     font-weight: 200;
     color: #4A4A4A;
     margin: 0 0 23px 0;
+    line-height: 1.2em;
 }
 
 ul li {
@@ -82,15 +83,14 @@ ul li {
     margin: 0;
 }
 
-#contact h1 {
-    border-top: 1px solid #0B0B3A;
-    padding: 10px 0 0 0;
-}
+#contact h1 {}
 
 #headerNav {}
 
 #content {
     padding: 124px 24px 0 24px;
+    width: 360px;
+    margin: 0 auto;
 }
 
 #headerNav ul {
@@ -101,6 +101,10 @@ ul li {
 #headerNav ul li {
     height: 28px;
     text-align: center;
+}
+
+.note-green-bg {
+    background: rgb(44, 182, 150);
 }
 
 .twitter-blue-bg {
@@ -115,8 +119,8 @@ ul li {
     border-radius: 4px;
     border: 0px;
     margin: 5px;
+    width: 100%;
     text-align: center;
-    width: 162px;
     height: 40px;
     font-size: 22px;
     color: #fff;
@@ -127,18 +131,13 @@ ul li {
     color: #fff;
 }
 
-.tab-item>a {
-}
-
-
+.tab-item>a {}
 
 .tab-item.isSelected {
     border-bottom: 4px solid #0B0B3A;
 }
 
-.tab-item-wrapper {
-    
-}
+.tab-item-wrapper {}
 
 .tab-item-wrapper ul {
     flex-direction: row;
@@ -156,6 +155,7 @@ ul li {
 #timeline {
     position: relative;
 }
+
 #timeline::before {
     position: absolute;
     content: "";
@@ -166,9 +166,11 @@ ul li {
     border-left: 5px solid #E0E0E0;
     z-index: -1;
 }
+
 .tl-icon {
     z-index: 1;
 }
+
 .tl-type-profile .tl-icon {
     width: 39px;
     height: 39px;
@@ -207,6 +209,12 @@ ul li {
     border-radius: 5px;
     padding: 10px;
     margin: 0 0 12px 0;
+    width: 100%;
+}
+
+.tl-message a {
+    color: #A91C70;
+    text-decoration: underline;
 }
 
 .tl-message p {
@@ -215,12 +223,18 @@ ul li {
 
 .timeline-item {}
 
-#contact {
-    margin: 10px 0;
+#career, #contact {
+    margin-top: -114px;
+    padding-top: 114px;
 }
 
 .SNS-link {
     justify-content: center;
+}
+.SNS-link>a{
+    flex: 1;
+    width: 100%;
+    padding: 0px 5px 0 0;
 }
 
 .flex-container {
@@ -242,6 +256,11 @@ ul li {
     margin: 14px 0;
 }
 
+.tl-photo > iframe {
+    overflow: hidden;
+    border-radius: 5px;
+}
+
 .tl-photo img {
     width: 100%;
     border-radius: 5px;
@@ -249,4 +268,29 @@ ul li {
 
 .tl-year p {
     margin-top: -10px;
+}
+
+h1.section {
+    border-top: 1px solid #0B0B3A;
+    margin: 10px 0;
+    padding: 10px 0 0 0;
+}
+
+#footer {
+    position: relative;
+    margin-top: 160px;
+    height: 100px;
+    background-color: #0B0B3A;
+}
+
+.footer-note {
+    font-size: 12px;
+    color: rgba(255,255,255,0.75);
+    margin: 4px;
+}
+
+.footer-text-wrapper {
+    position: absolute;
+    left: 10px;
+    bottom: 10px
 }
