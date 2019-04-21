@@ -99,7 +99,7 @@ header {
     margin: 0 auto;
 }
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:414px) {
     #content {
         width: auto;
     }
@@ -232,7 +232,7 @@ header {
 
 .tl-message p {
     vertical-align: middle;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.1em;
     margin: 13px 0;
 }
