@@ -1,42 +1,104 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8" />
-        
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width,initial-scale=1" />
-        <title>UI/UX Designer - Hiroyuki Miura (a.k.a.うっくん) </title>
-        <meta name="description" content="This page is a portfolio of a Japan-based UI UX Designer, Hiroyuki Miura" />
-        <meta property="og:url" content="http://wecken.github.io" />
-        <meta property="og:title" content="Portfolio - Hiroyuki Miura" />
-        <meta property="og:type" content="website">
-        <meta property="og:description" content="Hi! Please check out my portfolio website." />
-        <meta property="og:image" content="https://wecken.github.io/assets/ogpcover.png" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@HIRO_YUKI" />
-        <meta property="og:site_name" content="Portfoloi - Hiroyuki Miura" />
-        <meta property="og:locale" content="en_US" />
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="scrypt" type="text/css" href="style.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script type="text/javascript" src="script.js"></script>
+    <meta charset="utf-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>UI/UX Designer - Hiroyuki Miura (a.k.a.うっくん) </title>
+    <meta name="description" content="This page is a portfolio of a Japan-based UI UX Designer, Hiroyuki Miura" />
+    <meta property="og:url" content="http://wecken.github.io" />
+    <meta property="og:title" content="Portfolio - Hiroyuki Miura" />
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Hi! Please enjoy my portfolio website." />
+    <meta property="og:image" content="https://wecken.github.io/assets/ogpcover.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@HIRO_YUKI" />
+    <meta property="og:site_name" content="Portfoloi - Hiroyuki Miura" />
+    <meta property="og:locale" content="en_US" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="scrypt" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 
 
-    </head>
+</head>
 
-    <body>
-        <div id="header">
-            <div id="logo">
-                <h1>Hiroyuki Miura</h1>
-            </div>
-            <div id="headerNav">
-                <ul>
-                    <li>Career</li>
-                    <li>Contact</li>
+<body>
+    <div id="header">
+        <div id="logo">
+            <h1>Hiroyuki Miura</h1>
+        </div>
+        <div id="headerNav">
+            <div class="tab-item-wrapper">
+                <ul class="flex-container">
+                    <div class="tab-item-flex"><a href="#career"><button><li class="tab-item isSelected">Career</li></button></a></div>
+                    <a href="#contact"><button><li class="tab-item">Contact</li></button></a>
                 </ul>
             </div>
         </div>
-        <h1>UI/UX Designer</h1>
-        <p>Hiroyuki Miura is UI/UX designer based in Japan. Born in April 14th, 1990. (29 years old)</p>
-    </body>
+    </div>
+    <div id="content">
+        <div>
+            <h1 id="career">UI/UX Designer</h1>
+            <p>Hiroyuki Miura (a.k.a うっくん) is UI/UX designer based in Japan. Born in April 14th, 1990. (29 years old)</p>
+        </div>
+        <!--Timeline starts here-->
+        <!--Timeline item 1-->
+        <div id="timeline">
+            <div class="timeline-item tl-type-profile flex-container">
+                <div class="tl-icon">
+                </div>
+
+                <div class="tl-message">
+                    <p>Welcome to my portfolio web site. Please enjoy.</p>
+                </div>
+
+            </div>
+        </div>
+        <!--Timeline item 2-->
+        <div id="timeline">
+            <div class="timeline-item tl-type-event flex-container">
+                <div class="tl-icon">
+                </div>
+
+                <div class="tl-message">
+                    <p>Mercedes-Benz User Experience (MBUX)</p>
+                </div>
+            </div>
+            <div class="tl-year">
+                <p>2019</p>
+            </div>
+            <div class="timeline-item tl-type-image flex-container">
+                <div class="tl-icon">
+                </div>
+
+                <div class="tl-photo">
+                    <img src="assets/MBUX.JPG">
+                </div>
+            </div>
+        <!--Timeline item 3-->
+        <div id="timeline">
+            <div class="timeline-item tl-type-profile flex-container">
+                <div class="tl-icon">
+                </div>
+
+                <div class="tl-message">
+                    <p>I worked at Mercedes-Benz Japan as a UI/UX Expert to improve the usability of brand's in-car information system. I was responsible for its navigation system for Japanese market. Optimizing the userflow, and functionality, user experience of destination search is significantly improved. </p>
+                </div>
+
+            </div>
+        </div>
+
+        </div>
+        <div id="contact">
+            <h1>Contact</h1>
+            <div class="SNS-link flex-container">
+                <a href="https://twitter.com/HIRO_YUKI_" target="_blank"><button class="twitter-blue-bg button-SNS-Profile">Twitter</button></a>
+                <a href="https://www.linkedin.com/in/hiroyuki-miura-836b4032/" target="_blank"><button class="LinkedIn-CIColor-BG button-SNS-Profile">LinkedIn</button></a>
+            </div>
+        </div>
+
+    </div>
+</body>
 </html>
