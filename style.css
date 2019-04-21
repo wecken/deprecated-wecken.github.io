@@ -56,7 +56,6 @@ ul li {
     text-decoration: none;
 }
 
-
 header {
     background: rgba(255, 255, 255, 1.0);
     width: auto;
@@ -65,13 +64,13 @@ header {
     z-index: 1000;
     top: 0;
     transition: top 0.2s ease-in-out;
-
 }
 
 .hide {
     top: -53px;
     transition-duration: 0.2;
 }
+
 @supports(-webkit-backdrop-filter: blur(10px)) {
     header {
         background: rgba(255, 255, 255, 0.80);
@@ -98,6 +97,12 @@ header {
     padding: 124px 24px 0 24px;
     width: 360px;
     margin: 0 auto;
+}
+
+@media screen and (max-width:360px) {
+    #content {
+        width: 100%;
+    }
 }
 
 #headerNav ul {
@@ -230,7 +235,8 @@ header {
 
 .timeline-item {}
 
-#career, #contact {
+#career,
+#contact {
     margin-top: -114px;
     padding-top: 114px;
 }
@@ -238,7 +244,8 @@ header {
 .SNS-link {
     justify-content: center;
 }
-.SNS-link>a{
+
+.SNS-link>a {
     flex: 1;
     width: 100%;
     padding: 0px 5px 0 0;
@@ -263,7 +270,7 @@ header {
     margin: 14px 0;
 }
 
-.tl-photo > iframe {
+.tl-photo>iframe {
     overflow: hidden;
     border-radius: 5px;
 }
@@ -292,7 +299,7 @@ h1.section {
 
 .footer-note {
     font-size: 12px;
-    color: rgba(255,255,255,0.75);
+    color: rgba(255, 255, 255, 0.75);
     margin: 4px;
 }
 
