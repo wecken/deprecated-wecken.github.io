@@ -48,7 +48,7 @@ $('document').ready(function () {
                 checkScroll();
                 flug = true;
                 return flug;
-            }, 500);
+            }, 700);
         }
     });
 
