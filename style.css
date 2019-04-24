@@ -277,12 +277,6 @@ header {
 .tl-photo iframe {
     border-radius: 5px;
     width: 100%;
-    min-height: 260px;
-}
-
-.tl-photo>iframe {
-    overflow: hidden;
-    border-radius: 5px;
 }
 
 .tl-photo img {
@@ -317,4 +311,8 @@ h1.section {
     position: absolute;
     left: 10px;
     bottom: 10px
+}
+
+.embedded-youtube {
+    height: 255px;
 }
