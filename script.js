@@ -15,15 +15,41 @@ $('document').ready(function () {
 
     //Automatically hide header on scroll
     //Hide Header on on scroll down
+
+    function hide() {
+        $('header').addClass('hide');
+    }
+
+    function unhide() {
+        $('header').removeClass('hide');
+    }
+
     var startPos = 0,
-        winScrollTop = 0;
-    $(window).on('scroll', function () {
-        winScrollTop = $(this).scrollTop();
+        winScrollTop = 0,
+        flug = true;
+
+    function checkScroll() {
+
         if (winScrollTop > startPos) {
-            $('header').addClass('hide');
+            hide();
         } else {
-            $('header').removeClass('hide');
+            unhide();
         }
         startPos = winScrollTop;
+
+    }
+
+    $(window).scroll(function () {
+        if (flug) {
+            flug = false;
+            setTimeout(function () {
+                // ここに処理を書く
+                winScrollTop = $(window).scrollTop();
+                checkScroll();
+                flug = true;
+                return flug;
+            }, 1000);
+        }
     });
+
 });
