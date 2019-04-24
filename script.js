@@ -42,13 +42,13 @@ $('document').ready(function () {
     $(window).scroll(function () {
         if (flug) {
             flug = false;
+            winScrollTop = $(window).scrollTop();
             setTimeout(function () {
                 // ここに処理を書く
-                winScrollTop = $(window).scrollTop();
                 checkScroll();
                 flug = true;
                 return flug;
-            }, 1000);
+            }, 500);
         }
     });
 
