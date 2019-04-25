@@ -13,13 +13,18 @@ $('document').ready(function () {
         $(this).parent().addClass('isSelected');
     });
 
+    //Darkmode Switcher
+
+    $('#DarkModeSwitcher > button').click(function () {
+        $('body').toggleClass('Dark-Mode');
+    });
+
     //Automatically hide header on scroll
     //Hide Header on on scroll down
-
     function hide() {
         $('header').addClass('hide');
     }
-
+    //Unhide Header on on scroll up
     function unhide() {
         $('header').removeClass('hide');
     }
@@ -28,6 +33,8 @@ $('document').ready(function () {
         winScrollTop = 0,
         flug = true;
 
+    //This function checks the direction of scroll, up or down
+    //Then perform hide or unhide header.
     function checkScroll() {
 
         if (winScrollTop > startPos) {
@@ -43,8 +50,10 @@ $('document').ready(function () {
         if (flug) {
             flug = false;
             winScrollTop = $(window).scrollTop();
+            //Timeout is for delaying judgement of scroll up or down. 
+            //Otherwise, scroll bouncing on Safari gives unwanted behavior. 
             setTimeout(function () {
-                // ここに処理を書く
+                // Script Here 
                 checkScroll();
                 flug = true;
                 return flug;
