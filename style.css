@@ -124,6 +124,7 @@ header {
     padding: 124px 24px 0 24px;
     width: 80%;
     margin: 0 auto;
+    max-width: 580px;
 }
 
 @media screen and (max-width:414px) {
