@@ -6,6 +6,21 @@
 $('document').ready(function () {
     "use strict";
     //Script Here
+    //Initialize Variables
+    var startPos = 0,
+        winScrollTop = 0,
+        flug = true,
+        date = new Date(),
+        hour = date.getHours();
+
+
+
+    //Get the current time and set the initial Dark Mode state
+    if (hour >= 16) {
+        $('body').addClass('Dark-Mode');
+    } else {
+        $('body').removeClass('Dark-Mode');
+    }
 
     //Tab UI, move selected tab
     $('.tab-item > a').click(function () {
@@ -28,10 +43,6 @@ $('document').ready(function () {
     function unhide() {
         $('header').removeClass('hide');
     }
-
-    var startPos = 0,
-        winScrollTop = 0,
-        flug = true;
 
     //This function checks the direction of scroll, up or down
     //Then perform hide or unhide header.
