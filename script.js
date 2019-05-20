@@ -16,7 +16,7 @@ $('document').ready(function () {
 
 
     //Get the current time and set the initial Dark Mode state
-    if (hour >= 16) {
+    if (hour >= 16 || hour <= 6 ) {
         $('body').addClass('Dark-Mode');
     } else {
         $('body').removeClass('Dark-Mode');
