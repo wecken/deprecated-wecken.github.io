@@ -20,7 +20,7 @@ body.Dark-Mode {
 
 h1 {
     font-family: Helvetica-Light, HiraginoSans-W2;
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 200;
     margin: 20px 0 20px 0;
 }
@@ -55,11 +55,11 @@ button a {
 
 p {
     font-family: Helvetica-Light, HiraginoSans-W2;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 200;
     color: #4A4A4A;
     margin: 8px 0;
-    line-height: 1.2em;
+    line-height: 1.3em;
 }
 
 .Dark-Mode p {
@@ -249,7 +249,7 @@ header {
     width: 13px;
     height: 13px;
     overflow: hidden;
-    margin: 24px 29px;
+    margin: 38px 29px;
     flex-shrink: 0;
     background-color: #0B0B3A;
     border-radius: 100px;
@@ -267,7 +267,7 @@ header {
 .tl-message {
     background-color: #fff;
     border-radius: 5px;
-    padding: 10px;
+    padding: 20px;
     margin: 0 0 12px 0;
     width: 100%;
     height: auto;
@@ -284,9 +284,9 @@ header {
 
 .tl-message p {
     vertical-align: middle;
-    font-size: 16px;
-    line-height: 1.1em;
-    margin: 13px 0;
+    font-size: 20px;
+    line-height: 1.3em;
+    margin: 13px 0 10px 0;
 }
 
 .timeline-item {}
