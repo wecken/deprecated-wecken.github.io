@@ -360,7 +360,7 @@ h1.section {
     position: relative;
     margin-top: 160px;
     height: 100px;
-    background-color: #0B0B3A;
+    background-color: #010115;
 }
 
 .Dark-Mode #footer {
@@ -436,4 +436,19 @@ h1.section {
     to {
         opacity: 1;
     }
+}
+
+#skills em {
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    margin: 4px;
+    background-color: #0B0B3A;
+    padding: 4px 10px;
+    border-radius: 400px;
+}
+
+.Dark-Mode #skills em {
+    color: #0B0B3A;
+    background-color: #fff;
 }
