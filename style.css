@@ -439,6 +439,7 @@ h1.section {
 }
 
 #skills em {
+    font-style: normal;
     display: inline-block;
     color: #fff;
     font-size: 16px;
@@ -449,6 +450,6 @@ h1.section {
 }
 
 .Dark-Mode #skills em {
-    color: #0B0B3A;
-    background-color: #fff;
+    color: #fff;
+    background-color: #2e3f54;
 }
