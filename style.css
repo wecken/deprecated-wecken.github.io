@@ -26,8 +26,8 @@ h1 {
 }
 
 .Dark-Mode h1,
-p,
-B {
+.Dark-Mode p,
+.Dark-Mode B {
     color: #FFFFFF;
 }
 
