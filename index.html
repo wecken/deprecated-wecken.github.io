@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html>
 
+<script>
+    // If `prefers-color-scheme` is not supported, fall back to light mode.
+    // In this case, light.css will be downloaded with `highest` priority.
+    if (window.matchMedia('(prefers-color-scheme)').media === 'not all') {
+        document.documentElement.style.display = 'none';
+        document.head.insertAdjacentHTML(
+            'beforeend',
+            '<link rel="stylesheet" href="/style.css" onload="document.documentElement.style.display = ``">'
+        );
+    }
+</script>
+
 <head>
     <meta charset="utf-8" />
 
@@ -8,6 +20,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>UI/UX Designer - Hiroyuki Miura (a.k.a.うっくん) </title>
     <meta name="description" content="This page is a portfolio of a Japan-based UI UX Designer, Hiroyuki Miura" />
+    <!-- OGP here -->
     <meta property="og:url" content="http://wecken.github.io" />
     <meta property="og:title" content="Portfolio - Hiroyuki Miura" />
     <meta property="og:type" content="website">
@@ -18,7 +31,12 @@
     <meta property="og:site_name" content="Portfoloi - Hiroyuki Miura" />
     <meta property="og:locale" content="en_US" />
     <meta name="robots" content="noindex" />
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Loading Dark/Normal CSS here -->
+    <link rel="stylesheet" href="/dark.css" media="(prefers-color-scheme: dark)">
+    <link rel="stylesheet" href="/light.css" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+    <!-- The main stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+
     <link rel="scrypt" type="text/css" href="style.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script type="text/javascript" src="script.js"></script>

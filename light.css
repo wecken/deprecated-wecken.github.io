@@ -1,0 +1,99 @@
+html {
+    background-color: #F3F3F3;
+}
+
+* {
+    color: #444444;
+}
+
+h1, B, p {
+    color: #4A4A4A;
+}
+
+h1.section {
+    border-top: 1px solid #0B0B3A;
+}
+
+header {
+    background: rgba(255, 255, 255, 1.0);
+}
+
+@supports(-webkit-backdrop-filter: blur(10px)) {
+    header {
+        background: rgba(255, 255, 255, 0.80);
+        -webkit-backdrop-filter: blur(10px);
+    }
+}
+
+#logo {
+    box-shadow: inset 0 -1px 0 0 #E0E0E0;
+}
+
+#logo h1 {
+    color: #818181;
+}
+
+
+.tab-item.isSelected {
+    border-bottom: 4px solid #0B0B3A;
+}
+
+.tab-item {
+    border-bottom: 4px solid #E0E0E0;
+}
+
+.tab-item-wrapper ul {
+    box-shadow: inset 0 -4px 0 0 #E0E0E0;
+}
+
+#timeline::before {
+    border-left: 5px solid #E0E0E0;
+}
+
+.tl-type-event .tl-icon {
+    background-color: #0B0B3A;
+}
+
+.tl-message {
+    background-color: #fff;
+}
+
+.tl-message a {
+    color: #F152B1;
+}
+
+.twitter-blue-bg {
+    background: #1DA1F2;
+}
+
+.LinkedIn-CIColor-BG {
+    background: #0077B5;
+}
+
+.note-green-bg {
+    background: rgb(44, 182, 150);
+}
+
+
+#footer {
+    background-color: #010115;
+}
+
+.footer-note {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+#DarkModeSwitcher button {
+    color: rgba(255, 255, 255, 0.75);
+    background-color: #0B0B3A;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.50);
+}
+
+.fa-moon {
+    color: #fff;
+}
+
+#skills em {
+    color: #fff;
+    background-color: #2b2e59;
+}
