@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.e6c13ad2.css",
+    "main.js": "/portfolio/static/js/main.5b8a7750.js",
+    "static/js/787.41186040.chunk.js": "/portfolio/static/js/787.41186040.chunk.js",
+    "static/media/EOW_Animation.gif": "/portfolio/static/media/EOW_Animation.c4103f9cf96c108d3f88.gif",
+    "static/media/kurashiru_store_ui.png": "/portfolio/static/media/kurashiru_store_ui.6120f211a923d6394e54.png",
+    "static/media/shorenin.jpg": "/portfolio/static/media/shorenin.52d21905c50a11982040.jpg",
+    "static/media/MBUX_FTS.png": "/portfolio/static/media/MBUX_FTS.a504a5eab8bf85daaa33.png",
+    "static/media/kurashiru_store_banner.jpg": "/portfolio/static/media/kurashiru_store_banner.4d638d62eddc7a749bd7.jpg",
+    "static/media/kurashiru_store_spec.png": "/portfolio/static/media/kurashiru_store_spec.da3731e41284985fe7cf.png",
+    "static/media/kurashiru_store_creative.png": "/portfolio/static/media/kurashiru_store_creative.0415915be0435783724f.png",
+    "static/media/MBUX.jpg": "/portfolio/static/media/MBUX.376bdc94d8bb211ed255.jpg",
+    "static/media/MBUX_Flick.png": "/portfolio/static/media/MBUX_Flick.35d5252ced94e16cb814.png",
+    "static/media/kurashiru_store_flow.png": "/portfolio/static/media/kurashiru_store_flow.0c5d80e0f71df7404777.png",
+    "index.html": "/portfolio/index.html",
+    "main.e6c13ad2.css.map": "/portfolio/static/css/main.e6c13ad2.css.map",
+    "main.5b8a7750.js.map": "/portfolio/static/js/main.5b8a7750.js.map",
+    "787.41186040.chunk.js.map": "/portfolio/static/js/787.41186040.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.5b8a7750.js"
+  ]
+}
